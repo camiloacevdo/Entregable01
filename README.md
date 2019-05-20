@@ -12,8 +12,11 @@ Si el curso no existe, el aplicativo genera un mensaje de error y luego lista lo
 El aplicativo tiene los siguientes archivos
 
 entraga_01.js --> Es el archivo principal
+
 info.js --> Contiene la información de los cursos y las funciones propias del manejo de cursos
+
 funtions.js --> Es el archivo encargado de la creación del archivo de texto luego de la inscripción de un alumno
+
 package.json --> Archivo con las indicaciones de instalación
 
 EL PROYECTO FUE CREADO EN XUBUNTU 18.04 LTS
