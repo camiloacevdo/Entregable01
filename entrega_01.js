@@ -32,7 +32,7 @@ else
 {   id_ins_curso = argv.id;
     student = argv.st;
     doc_student = argv.idst;
-    console.log('INFORMACIÓN DEL ESTUDIANTE');
+    /*console.log('INFORMACIÓN DEL ESTUDIANTE');
     console.log('');
     console.log('Id Curso             :' + id_ins_curso);
     console.log('Estudiante           :'+ student);
@@ -41,18 +41,23 @@ else
     console.log('');
     console.log('INFORMACIÓN DEL CURSO');
     console.log('');
-    console.log(curso.resultInfo(id_ins_curso));
+    console.log(curso.resultInfo(id_ins_curso));*/
     
-    texto = 'INFORMACIÓN DEL ESTUDIANTE\n\n' + 'Estudiante           :'+ student + '\n' + 'Documento Estudiante :'+ doc_student;
+    texto_estudiante= 'INFORMACIÓN DEL ESTUDIANTE\n\n' + 'Estudiante           :'+ student + '\n' + 'Documento Estudiante :'+ doc_student;
+    console.log(texto_estudiante);
+    console.log('');
     texto_curso = curso.resultInfo(id_ins_curso);
-    texto = '\n' + texto + '\n\nINFORMACIÓN DEL CURSO\n\n' + texto_curso;
+    console.log(texto_curso);
+    texto_final = texto_estudiante + '\n\n' + texto_curso;
    
     if (texto_curso == "EL CURSO NO EXISTE"){
+        console.log('');
+        console.log('EL CURSO NO EXISTE');
         console.log('');
         listar(contador, repeticiones);
     }
     else
-        funciones.createFile(texto,'archivo_curso.txt');
+        funciones.createFile(texto_final,'archivo_curso.txt');
 }
 
 
