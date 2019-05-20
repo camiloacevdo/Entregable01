@@ -9,9 +9,10 @@ El funcionamiento del aplicativo tiene dos opciones.
 
 Si el curso no existe, el aplicativo genera un mensaje de error y luego lista los cursos
 
+-------------------------------------------------------------------------------------------------------------------
 El aplicativo tiene los siguientes archivos
 
-entraga_01.js --> Es el archivo principal
+entrega_01.js --> Es el archivo principal
 
 info.js --> Contiene la información de los cursos y las funciones propias del manejo de cursos
 
@@ -19,5 +20,6 @@ funtions.js --> Es el archivo encargado de la creación del archivo de texto lue
 
 package.json --> Archivo con las indicaciones de instalación
 
+-------------------------------------------------------------------------------------------------------------------
 EL PROYECTO FUE CREADO EN XUBUNTU 18.04 LTS
 
