@@ -32,16 +32,6 @@ else
 {   id_ins_curso = argv.id;
     student = argv.st;
     doc_student = argv.idst;
-    /*console.log('INFORMACIÓN DEL ESTUDIANTE');
-    console.log('');
-    console.log('Id Curso             :' + id_ins_curso);
-    console.log('Estudiante           :'+ student);
-    console.log('Documento Estudiante :'+ doc_student);
-    console.log('');
-    console.log('');
-    console.log('INFORMACIÓN DEL CURSO');
-    console.log('');
-    console.log(curso.resultInfo(id_ins_curso));*/
     
     texto_estudiante= 'INFORMACIÓN DEL ESTUDIANTE\n\n' + 'Estudiante           :'+ student + '\n' + 'Documento Estudiante :'+ doc_student;
     console.log(texto_estudiante);
@@ -51,8 +41,6 @@ else
     texto_final = texto_estudiante + '\n\n' + texto_curso;
    
     if (texto_curso == "EL CURSO NO EXISTE"){
-        console.log('');
-        console.log('EL CURSO NO EXISTE');
         console.log('');
         listar(contador, repeticiones);
     }
