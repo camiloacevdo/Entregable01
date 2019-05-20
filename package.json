@@ -1,0 +1,15 @@
+{
+  "name": "entrega01",
+  "version": "1.0.0",
+  "description": "Primera entrega del curso de NodeJs",
+  "main": "entrega_01.js",
+  "dependencies": {
+    "yargs": "^13.2.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Juan Camilo Acevedo Bedoya",
+  "license": "ISC"
+}
