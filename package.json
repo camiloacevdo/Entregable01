@@ -1,15 +1,22 @@
 {
-  "name": "entrega01",
+  "name": "entrega_01",
   "version": "1.0.0",
-  "description": "Primera entrega del curso de NodeJs",
+  "description": "Entregable 01 del curso NodeJS",
   "main": "entrega_01.js",
-  "dependencies": {
+   "dependencies": {
     "yargs": "^13.2.4"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "entrega_01.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitcamiloacevedo/Entregable01.git"
   },
   "author": "Juan Camilo Acevedo Bedoya",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitcamiloacevedo/Entregable01/issues"
+  },
+  "homepage": "https://github.com/gitcamiloacevedo/Entregable01#readme"
 }
