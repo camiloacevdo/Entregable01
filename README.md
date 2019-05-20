@@ -7,7 +7,7 @@ El funcionamiento del aplicativo tiene dos opciones.
 1. node entrega_01.js --> Sirve para listar todos los cursos e inscribir un nuevo alumno
 2. node entrega_01.js inscribir --id=1 --st=nombre_estudiante --idst=1234567890 --> Inscribe un estudiante en un curso creado, y luego genera el archivo de texto archivo_curso.txt
 
-Si el curso no existe el aplicativo genera un mensaje de error y luego lista los cursos
+Si el curso no existe, el aplicativo genera un mensaje de error y luego lista los cursos
 
 El aplicativo tiene los siguientes archivos
 
